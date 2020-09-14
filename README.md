@@ -10,6 +10,7 @@
 
 ### Numbers
 
+* Python automatically converts integer to floating-point when you're doing calculations between an integer and a floating-point
 * Three main types of numbers
     * Integer 
     * Floating Point Numbers 
@@ -56,5 +57,46 @@
     * Partial slicing can happening if either the `start` or the `end` is left out 
         * If `start` is left out -- the slicing will start from the `0` index and stop at the `end` index
         * If `end` if left out -- the slicing will start  from the `start` index and end at the `n-1` index
+* `in` keyword to check if a substring is included in another string 
+    * ex: `"hi" in "hi panda"` return true
 
+### Operators 
+
+* in-fix notation 
+    * the operator appears between the values that it's operated on 
+    * aka binary operator 
+* prefix notation 
+    * appears before the value it is operated on
+    * aka unary operator
+* five main operator in Python 
+    * arithmetic 
+        * exponent `**`
+        * modulo `%`
+        * multiplication `*`
+        * division `/`
+        * floor division `//`
+            * the result is floored to the nearest smallest integer 
+            * aka integer division 
+        * addition `+`
+        * subtraction `-`
+    * comparison 
+        * `>`, `<`, `>=`, `<=`, `==`, `is` (equal to), `is not` (not equal to)
+    * assignment 
+        * `=`, `+=`, `-=`, `*=`, `/=`. `//=`, `**=`, `%=`, `|=` (OR), `&=` (AND), `^=` (^=), `>>=`, `<<=`
+    * logical 
+        * `and`, `or`, `not`
+        * programming is made of combinations of `1`s and `0`s. 
+            * `1`s represents `True`
+            * `0`s represents `False`
+    * bitwise 
+        * `&` - Bitwise AND
+        * `|` - Bitwise OR
+        * `^` - Bitwise XOR
+        * `~` - Bitwise NOT
+        * `<<` - Shift Bit Left
+        * `>>` - Shift Bitwise Right
+
+### List 
+
+* a collection of values enclosed in square brackets, `[]`
 
