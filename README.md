@@ -100,3 +100,60 @@
 
 * a collection of values enclosed in square brackets, `[]`
 
+### Conditional Statements 
+
+* control flow statement, allows for multiple endpoints depending on which condition is satisfied. 
+*  `if` statement
+    * indentation really matters in ruby, they indicate blocks, `inner` and `inter-related` blocks
+```python
+num == 300 
+
+if (num == 20): 
+    print("hello, I'm 20")
+
+# nested if statements 
+if (num > 20):
+    if (num > 100): 
+        if (num > 200):
+            print("hello, I'm greater than 20")
+```
+* `if-else` statement
+    * the `if` and the `else` are at the same indentation level
+```python 
+weather = "rainy"
+
+if weather == "rainy":
+    print("remember to bring an umbrella")
+else:
+    print("it's not raining today")
+
+# conditonal statement -- same as above
+output = "remember to bring an umbrella" \ 
+    if weather == "rainy" else "it's not raining today"
+
+print(output)
+```
+* `if-elif-else` statement
+    * `elif` stand for else if 
+    * `else` can be excluded from the statement 
+    * `if`, `elif`, and `else` are on the same indentation level 
+```python 
+
+season = "Winter"
+
+if season == "Winter":
+    print("Let's build a snowman")
+
+elif season == "Autumn":
+    print("Let's go apple picking")
+
+elif season == "Summer":
+    print("Let's go to the beach")
+    
+elif season == "Spring":
+    print("Let's go hiking")
+
+else:
+    print("Incorrect season input")
+
+```
